@@ -1,0 +1,23 @@
+{
+  "name": "opensim-cli",
+  "version": "1.0.0",
+  "description": "OpenSim agent CLI for connecting to the world",
+  "type": "module",
+  "bin": {
+    "opensim": "./src/index.js"
+  },
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.4",
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12",
+    "nanoid": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}

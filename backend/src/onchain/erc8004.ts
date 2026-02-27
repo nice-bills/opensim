@@ -1,4 +1,4 @@
-import { Character } from './types.js';
+import { Character } from '../world/types.js';
 
 export interface ERC8004Metadata {
   tokenId: string;
